@@ -1,12 +1,40 @@
 /*Harshdeep kaur   8912971*/
+
 body{
     height : 100vh;
     width : 100vw;
     background-color: hsla(280, 20%, 70%, 0.3);
     font : normal normal normal 12px/1.5 verdana, Arial, Helvetica, sans-serif;
-    padding: 2em;
+  
 }
 h2{
     color: #fc0;
     font-size: 2rem;
 }
+header{
+    background-color:hsl(200, 87%, 65%);
+}
+main{
+    float : left;
+    width : 65vw;
+    background-color:hsl(200, 87%, 65%);
+    height: 60vh;
+}
+
+aside{
+    float : right;
+    width : 25vw;
+    height: 60vh;
+}
+.structural{
+    border : 2px solid black;
+    padding : 10px;
+    margin : 10px;
+}
+footer{
+    clear: both;
+}
+footer p{
+    font-size : .75em;
+}
+    
